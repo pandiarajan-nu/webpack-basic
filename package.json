@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/pandiarajan-nu/webpack-basic#readme",
   "devDependencies": {
+    "css-loader": "^6.5.1",
+    "style-loader": "^3.3.1",
     "webpack": "^5.62.1",
     "webpack-cli": "^4.9.1"
   }
