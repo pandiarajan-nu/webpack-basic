@@ -1,0 +1,1 @@
+console.log('This is vendors file to test multiple entry points')
