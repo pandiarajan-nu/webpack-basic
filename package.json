@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --config webpack.dev.js",
+    "start": "webpack-dev-server --config webpack.dev.js --open --port=8000",
     "build": "webpack --config webpack.prod.js"
   },
   "repository": {
@@ -27,6 +27,7 @@
     "style-loader": "^3.3.1",
     "webpack": "^5.62.1",
     "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0",
     "webpack-merge": "^5.8.0"
   }
 }
